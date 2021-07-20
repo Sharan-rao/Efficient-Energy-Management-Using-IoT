@@ -1,0 +1,2 @@
+# Efficient-Energy-Management-Using-IoT
+This Project will Monitor the input, output and the power consumed and  give us the data analyzed in the cloud and the graph on the amount  of energy wasted so that the energy can be managed in the most  efficient way. With this data one can understand how to use every  appliance and how much of power should be allocated for every  appliance. With the analyzed data, a learning model can be created  and we can limit that amount of energy to that particular appliance
