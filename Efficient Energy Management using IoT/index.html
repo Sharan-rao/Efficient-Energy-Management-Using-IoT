@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iot</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Eater&family=Kalam&family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body  onunload="dele()">
+    <div id="pass" style="display:none">
+        <div id="topimage"><br><br>
+           <div id="toptext"><h2> EFFICIENT ENERGY MANAGEMENT USITN IOT</h2></div>
+        </div>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="http://newhorizonindia.edu/nhengineering/">NHCE</a></li>
+            <li><a href="#chart_div">Chart</a></li>
+            <li><a href="#about">About</a></li>
+            
+        </ul>
+        <div class="bu">
+            <button id="led1" onclick="updateled1()"></button>
+            <br>
+            <button id="led2" onclick="updateled2()"></button>
+        </div>
+        <div class="charts" id="chart_div"></div>
+        <div class="charts" id="bchart_div"></div>
+        <div id="s_date">
+            <label for="sdate">Starting time and date:</label>
+            <input type="datetime-local" id="sdate" name="sdate">
+            <br>
+            <label for="edate">Starting time and date:</label>
+            <input type="datetime-local" id="edate" name="edate">
+            <br>
+            <button onclick="uchart();">submit</button>
+            </div>
+        <div id="empty"> hi </div>
+        <div class="charts" id="chart_div1" style="display:none"></div>
+        <div class="charts" id="bchart_div1" style="display:none"></div>
+        
+
+    </div>
+  <div id="dpass" style="display:block">
+     Entersecret key:
+    <input type="password" id="spass" onkeyup="pass()">
+  </div>
+    <script type="text/javascript" src="java.js"></script>
+    
+</body>
+</html>
